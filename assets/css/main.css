@@ -1368,7 +1368,7 @@
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #4A90E2 url("images/overlay.png");
+			background: #0E76B0 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1486,7 +1486,7 @@
 /* Feature List */
 
 	.feature-list h3 {
-		color: #4A90E2 !important;
+		color: #0E76B0 !important;
 	}
 
 		.feature-list h3:before {
@@ -1562,13 +1562,13 @@
 			}
 
 		.wrapper.style1 {
-			background: #4A90E2 url("images/overlay.png");
+			background: #0E76B0 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #4A90E2 url("images/overlay.png");
+				background: #0E76B0 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -1736,7 +1736,7 @@
 	}
 
 		#highlights .highlight h3 {
-			color: #4A90E2;
+			color: #0E76B0;
 		}
 
 /* Copyright */
@@ -1963,7 +1963,7 @@
 
 			#intro-wrapper {
 				padding-bottom: 8em;
-				background-color: #4A90E2;
+				background-color: #0E76B0;
 			}
 
 		/* Header */
