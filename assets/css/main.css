@@ -1603,6 +1603,12 @@
 		background-size: cover;
 	}
 
+	#header-wrapper-dessert {
+		background: url("../../images/dessertBar.png") center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
 		#header-wrapper:before {
 			content: '';
 			position: absolute;
@@ -2688,4 +2694,10 @@
 							margin-top: 0;
 						}
 
+	}
+
+
+	.styleButton {
+		background-color: : #0C6596;
+		color: white;
 	}
