@@ -1604,12 +1604,13 @@
 	}
 
 	#header-wrapper-dessert {
-		background: url("../../images/dessertBar.png") center center;
+		background: url("../../photos/dessertBar.png") center center;
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
 
 		#header-wrapper:before {
+			pointer-events: none;
 			content: '';
 			position: absolute;
 			top: 0;
