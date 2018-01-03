@@ -35,9 +35,9 @@
                                 <div class="row">
                                     <div class="10u 6u(mobile)"></div>
                                     <div class="2u 6u(mobile)">
-                                        <a clas="wow bounceIn" href="https://www.facebook.com/CMUATO"><img width="45px" class="socialMediaIcon wow bounceIn" src="photos/facebook.png"></a>
-                                        <a clas="wow bounceIn" href="https://twitter.com/CMU_ATO"><img width="45px" class="socialMediaIcon wow bounceIn" src="photos/twitter.png"></a>
-                                        <a class="wow bounceIn" href="https://www.instagram.com/cmu_ato/"><img width="45px" class="socialMediaIcon" src="photos/instagram.png"></a>
+                                        <a class="wow bounceIn" href="https://www.facebook.com/CMUATO"><img width="45px" class="socialMediaIcon wow bounceIn" src="photos/facebook.png"></a>
+                                        <a class="wow bounceIn" href="https://twitter.com/CMU_ATO"><img width="45px" class="socialMediaIcon wow bounceIn" src="photos/twitter.png"></a>
+                                        <a class="wow bounceIn" href="https://www.instagram.com/cmu_ato/"><img width="45px" class="socialMediaIcon wow bounceIn" src="photos/instagram.png"></a>
                                     </div>
                                 </div>
                             </div>
@@ -45,11 +45,21 @@
                         <!-- Nav -->
                             <nav id="nav">
                                 <ul>
-                                    <li><a href="index.html#who">Who We Are</a></li>
-                                    <li><a href="index.html#what">What We Do</a></li>
-                                    <li><a href="index.html#brothers">The Brothers</a></li>
-                                    <li><a href="index.html#contact">Contact Us</a></li>
-                                    <li><a href="rush">Spring Rush 2018</a></li>
+                                    <li><a href="index.html">Alpha Tau Omega ▼</a>
+                                        <ul>
+                                            <li><a href="index.html#who">Who We Are</a></li>
+                                            <li><a href="index.html#what">What We Do</a></li>
+                                            <li><a href="index.html#brothers">The Brothers</a></li>
+                                            <li><a href="index.html#contact">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="rush">Spring Rush 2018 ▼</a>
+                                        <ul>
+                                            <li><a href="#details">Details</a></li>
+                                            <li><a href="#contact">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://bikeathon.cmuato.org">Bikeathon 2017</a></li>
                                 </ul>
                             </nav>
 

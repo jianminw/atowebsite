@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="icon" href="photos/cross.png"/>
+        <link rel="stylesheet" href="stylesheets/w3.css">
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="stylesheets/animate.css"/>
         <script src="scripts/wow.min.js"></script>
@@ -18,6 +19,11 @@
             window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};heap.load("3083052150");
         </script>
         <script src="scripts/keypress-2.1.4.min.js"></script>
+        <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+        </style>
     </head>
     <body class="homepage">
 
@@ -29,7 +35,9 @@
 
                         <!-- Logo -->
                             <div id="logo">
-                                <img class="wow bounceIn 2u 4u(mobile)" src="photos/ATOLogo.png" alt=""/>
+                                <a href="index.html">
+                                    <img class="wow bounceIn 2u 4u(mobile)" src="photos/ATOLogo.png" alt=""/>
+                                </a>
                                 <h1 style="padding-top:10px" class="style2 wow bounceIn">Do you have what it takes</h1>
                                 <h1 class="style2 wow bounceIn">to become a leader?</h1>
                                 <p class="style2 wow slideInUp">Scroll down to learn more about the Alpha Tau Omega experience.</p>
@@ -47,11 +55,21 @@
                         <!-- Nav -->
                             <nav id="nav">
                                 <ul>
-                                    <li><a href="#who">Who We Are</a></li>
-                                    <li><a href="#what">What We Do</a></li>
-                                    <li><a href="#brothers">The Brothers</a></li>
-                                    <li><a href="#contact">Contact Us</a></li>
-                                    <li><a href="rush">Spring Rush 2018</a></li>
+                                    <li><a href="index.html">Alpha Tau Omega ▼</a>
+                                        <ul>
+                                            <li><a href="#who">Who We Are</a></li>
+                                            <li><a href="#what">What We Do</a></li>
+                                            <li><a href="#brothers">The Brothers</a></li>
+                                            <li><a href="#contact">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="rush">Spring Rush 2018 ▼</a>
+                                        <ul>
+                                            <li><a href="rush#details">Details</a></li>
+                                            <li><a href="rush#contact">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://bikeathon.cmuato.org">Bikeathon 2017</a></li>
                                 </ul>
                             </nav>
 
@@ -63,10 +81,24 @@
                     <a name="who"><div class="title">Who We Are</div></a>
                     <section id="intro" class="container">
 
-                        <a class="image featured wow bounceIn">
-                            <img src="photos/retreatf17.jpg" alt=""/>
-                        </a>
+                        <div class="w3-content w3-display-container wow bounceIn" style="max-width:800px">
+                            <img class="mySlides" src="photos/retreatf17.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/bikeathonnight.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/volleyball.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/fence.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/hackathon.jpg" style="width:100%">
+                            <div class="w3-center w3-container w3-section w3-xxxlarge w3-text-white w3-display-bottommiddle" style="width:100%">
+                                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+                            </div>
+                        </div>
 
+                        <br />
                         <p class="style1 wow slideInUp">The Founding Father Experience
                         </p>
                         <p class="wow slideInUp">In most experiences in life, everything before you has already been defined. As a colony, Alpha Tau Omega is still working to define itself. That's why we care so much about the quality of our members. As a member of ATO, not only will you be part of the experience, you will help to define it and create experiences for generations to come. We're seeking individuals who are ready to step up to the plate and help to create something great.</p>
@@ -149,27 +181,34 @@
                         <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
+                                    <a class="image featured"><img src="photos/brothers/anthony_chan.jpg" alt="" /></a>
+                                    <h3><a>Anthony Chan</a></h3>
+                                    <p><b>Major:</b> Computer Science <b>|</b> <b>Fun fact:</b> When hippos are upset their sweat turns red <b>|</b> <b>Involved in:</b> SDC</p>
+                                </section>
+                            </div>
+                            <div class="4u 12u(mobile) wow bounceIn">
+                                <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/austin_garcia.jpg" alt="" /></a>
                                     <h3><a>Austin Garcia</a></h3>
-                                    <p><b>Major:</b> Architecture <b>|</b> <b>Fun fact:</b> Lived in Africa   <b>|</b> <b>Involved in:</b> AIAS, Scotch and Soda</p>
+                                    <p><b>Major:</b> Architecture <b>|</b> <b>Fun fact:</b> Lived in Africa <b>|</b> <b>Involved in:</b> AIAS, Scotch'n'Soda</p>
                                 </section>
                             </div>
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/jason_gong.jpg" alt="" /></a>
                                     <h3><a>Jason Gong</a></h3>
-                                    <p><b>Major:</b> Engineering <b>|</b> <b>Fun fact:</b> I set fire to a trash can once in high school chemistry. <b>|</b> <b>Involved in:</b> AB Tech, C#</p>
-                                </section>
-                            </div>
-                            <div class="4u 12u(mobile) wow bounceIn">
-                                <section class="highlight">
-                                    <a class="image featured"><img src="photos/brothers/everett.jpg" alt="" /></a>
-                                    <h3><a>Everett Knag</a></h3>
-                                    <p><b>Major:</b> Business Administration <b>|</b> <b>Fun fact:</b> I started a company and failed. <b>|</b> <b>Involved in:</b> Ski team, Young Americans for Liberty</p>
+                                    <p><b>Major:</b> Engineering <b>|</b> <b>Fun fact:</b> I set fire to a trash can once in high school chemistry <b>|</b> <b>Involved in:</b> AB Tech, C#</p>
                                 </section>
                             </div>
                         </div>
                         <div class="row 150%">
+                            <div class="4u 12u(mobile) wow bounceIn">
+                                <section class="highlight">
+                                    <a class="image featured"><img src="photos/brothers/everett.jpg" alt="" /></a>
+                                    <h3><a>Everett Knag</a></h3>
+                                    <p><b>Major:</b> Business Administration <b>|</b> <b>Fun fact:</b> I started a company and failed <b>|</b> <b>Involved in:</b> Ski team, Young Americans for Liberty</p>
+                                </section>
+                            </div>
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/hunter_kready.jpg" alt="" /></a>
@@ -184,61 +223,61 @@
                                     <p><b>Major:</b> Biomedical and Mechanical Engineering <b>|</b> <b>Fun fact:</b> I lived in the woods of Maine for 6 months <b>|</b> <b>Involved in:</b> WRCT, Muay Thai Club, Maker Club</p>
                                 </section>
                             </div>
-                            <div class="4u 12u(mobile) wow bounceIn">
-                                <section class="highlight">
-                                    <a class="image featured"><img src="photos/brothers/vinay.jpg" alt="" /></a>
-                                    <h3><a>Vinay Kukutla</a></h3>
-                                    <p><b>Major:</b> ECE <b>|</b> <b>Fun fact:</b> I make fire beats. <b>|</b> <b>Involved in:</b> Sports Analytics, Robotics Club, CMU Cyphers, Photography Club</p>
-                                </section>
-                            </div>
                         </div>
                         <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
+                                    <a class="image featured"><img src="photos/brothers/vinay.jpg" alt="" /></a>
+                                    <h3><a>Vinay Kukutla</a></h3>
+                                    <p><b>Major:</b> ECE <b>|</b> <b>Fun fact:</b> I make fire beats <b>|</b> <b>Involved in:</b> Sports Analytics, Robotics Club, CMU Cyphers, Photography Club</p>
+                                </section>
+                            </div>
+                            <div class="4u 12u(mobile) wow bounceIn">
+                                <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/derek_li.jpg" alt="" /></a>
                                     <h3><a>Derek Li</a></h3>
-                                    <p><b>Major:</b> Business Administration <b>|</b> <b>Fun fact:</b> I'm from the Bay Area but I despise the Warriors. <b>|</b> <b>Involved in:</b> Tartan Sports Analytics Club, CMU Cyphers</p>
+                                    <p><b>Major:</b> Business Administration <b>|</b> <b>Fun fact:</b> I'm from the Bay Area but I despise the Warriors <b>|</b> <b>Involved in:</b> Tartan Sports Analytics Club, CMU Cyphers</p>
                                 </section>
                             </div>
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/jesse.jpg" alt="" /></a>
                                     <h3><a>Jesse Lu</a></h3>
-                                    <p><b>Major:</b> Business Administration <b>|</b> <b>Fun fact:</b> I've never had a nosebleed. <b>|</b> <b>Involved in:</b> Alpha Phi Omega, CMU Cyphers, Business Technology Club</p>
-                                </section>
-                            </div>
-                            <div class="4u 12u(mobile) wow bounceIn">
-                                <section class="highlight">
-                                    <a class="image featured"><img src="photos/brothers/connor_maggio.jpg" alt="" /></a>
-                                    <h3><a>Connor Maggio</a></h3>
-                                    <p><b>Major:</b> Mechanical Engineering <b>|</b> <b>Fun fact:</b> I'm named after John Connor from the Terminator series <b>|</b> <b>Involved in:</b> Treblemakers, Scotch 'n' Soda, Jazz Orchestra, Yuk Ultimate Frisbee, Hyperloop</p>
+                                    <p><b>Major:</b> Business Administration <b>|</b> <b>Fun fact:</b> I've never had a nosebleed <b>|</b> <b>Involved in:</b> Alpha Phi Omega, CMU Cyphers, Business Technology Club</p>
                                 </section>
                             </div>
                         </div>
                         <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
+                                    <a class="image featured"><img src="photos/brothers/connor_maggio.jpg" alt="" /></a>
+                                    <h3><a>Connor Maggio</a></h3>
+                                    <p><b>Major:</b> Mechanical Engineering <b>|</b> <b>Fun fact:</b> I'm named after John Connor from the Terminator series <b>|</b> <b>Involved in:</b> Treblemakers, Scotch'n'Soda, Jazz Orchestra, Yuk Ultimate Frisbee, Hyperloop</p>
+                                </section>
+                            </div>
+                            <div class="4u 12u(mobile) wow bounceIn">
+                                <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/max.jpg" alt="" /></a>
                                     <h3><a>Max Martin</a></h3>
-                                    <p><b>Major:</b> Biology <b>|</b> <b>Fun fact:</b> I love PB and J. <b>|</b> <b>Involved in:</b> DOCS</p>
+                                    <p><b>Major:</b> Biology <b>|</b> <b>Fun fact:</b> I love PB and J <b>|</b> <b>Involved in:</b> DOCS</p>
                                 </section>
                             </div>
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/bryce.jpg" alt="" /></a>
                                     <h3><a>Bryce Orloski</a></h3>
-                                    <p><b>Major:</b> Mathematics and Computer Science <b>|</b> <b>Fun fact:</b> I am an Eagle Scout. <b>|</b> <b>Involved in:</b> Putnam Competitor</p>
-                                </section>
-                            </div>
-                            <div class="4u 12u(mobile) wow bounceIn">
-                                <section class="highlight">
-                                    <a class="image featured"><img src="photos/brothers/chris_reed.jpg" alt="" /></a>
-                                    <h3><a>Chris Reed</a></h3>
-                                    <p><b>Major:</b> ECE <b>|</b> <b>Fun fact:</b> Played bass in high school rock band <b>|</b> <b>Involved in:</b> Scotch 'n' Soda, Orientation, ECE Outreach, AB</p>
+                                    <p><b>Major:</b> Mathematics and Computer Science <b>|</b> <b>Fun fact:</b> I played piano for 13 years <b>|</b> <b>Involved in:</b> Putnam Competitor, CMIMC staff member</p>
                                 </section>
                             </div>
                         </div>
                         <div class="row 150%">
+                            <div class="4u 12u(mobile) wow bounceIn">
+                                <section class="highlight">
+                                    <a class="image featured"><img src="photos/brothers/chris_reed.jpg" alt="" /></a>
+                                    <h3><a>Chris Reed</a></h3>
+                                    <p><b>Major:</b> ECE and Audio Engineering <b>|</b> <b>Fun fact:</b> Is a published poet <b>|</b> <b>Involved in:</b> Scotch'n'Soda, Orientation, ECE Outreach</p>
+                                </section>
+                            </div>
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/roop.jpg" alt="" /></a>
@@ -253,6 +292,8 @@
                                     <p><b>Major:</b> Chemical Engineering <b>|</b> <b>Fun fact:</b> I make puns all the thyme <b>|</b> <b>Involved in:</b> Scotch'n'Soda, Tisbert Sketch Comedy, Orientation</p>
                                 </section>
                             </div>
+                        </div>
+                        <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/joseph_wang.jpg" alt="" /></a>
@@ -260,13 +301,11 @@
                                     <p><b>Major:</b> ECE <b>|</b> <b>Fun fact:</b> I can make VR stuff <b>|</b> <b>Involved in:</b> SDC Booth</p>
                                 </section>
                             </div>
-                        </div>
-                        <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/sterling_wells.jpg" alt="" /></a>
                                     <h3><a>Sterling Wells</a></h3>
-                                    <p><b>Major:</b> Decision Science and Statistics and ML <b>|</b> <b>Fun fact:</b> I just recently drove coast to coast.  <b>|</b> <b>Involved in:</b> Alpha Phi Omega, Intervarsity Christian Fellowship, H2o, Interfellowship Association, Highland Ambassadors, Orientation, 15-112</p>
+                                    <p><b>Major:</b> Decision Science and Statistics and ML <b>|</b> <b>Fun fact:</b> I just recently drove coast to coast <b>|</b> <b>Involved in:</b> Alpha Phi Omega, Intervarsity Christian Fellowship, H2o, Interfellowship Association, Highland Ambassadors, Orientation, 15-112</p>
                                 </section>
                             </div>
                             <div class="4u 12u(mobile) wow bounceIn">
@@ -276,6 +315,8 @@
                                     <p><b>Major:</b>Computer Science<b>|</b> <b>Fun fact:</b> I sometimes enjoy breakfast foods at lunch <b>|</b> <b>Involved in:</b> 15-112 Teaching</p>
                                 </section>
                             </div>
+                        </div>
+                        <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/mike.jpg" alt="" /></a>
@@ -283,13 +324,11 @@
                                     <p><b>Major:</b> Neurobiology <b>|</b> <b>Fun fact:</b> I played baseball for over 10 years and I still suck! <b>|</b> <b>Involved in:</b> CMU EMS, Global Public Health Brigades</p>
                                 </section>
                             </div>
-                        </div>
-                        <div class="row 150%">
                             <div class="4u 12u(mobile) wow bounceIn">
                                 <section class="highlight">
                                     <a class="image featured"><img src="photos/brothers/jiahao.jpg" alt="" /></a>
                                     <h3><a>Jiahao Zhou</a></h3>
-                                    <p><b>Major:</b> ECE <b>|</b> <b>Fun fact:</b> I've flown on more than 20 flights (mostly to China). <b>|</b> <b>Involved in:</b> IFS</p>
+                                    <p><b>Major:</b> ECE <b>|</b> <b>Fun fact:</b> I've flown on more than 20 flights (mostly to China) <b>|</b> <b>Involved in:</b> IFS</p>
                                 </section>
                             </div>
                         </div>
@@ -298,7 +337,7 @@
 
             <!-- Footer -->
                 <div id="footer-wrapper" class="wrapper wow bounceInUp">
-                    <a name="contact"><div class="title">Next Steps</div></a>
+                    <a name="contact"><div class="title">Contact Us</div></a>
                     <div id="footer" class="container">
                         <header class="style1">
                             <h2 class="wow slideInUp">What are you waiting for?</h2>
@@ -387,7 +426,7 @@
                     </div>
                     <div id="copyright">
                         <ul>
-                            <li>&copy; Carnegie Mellon Alpha Tau Omega</li><li>Webmaster: Grant Seastream</li><li>Template Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+                            <li>&copy; <a href="http://cmuato.org">Carnegie Mellon Alpha Tau Omega</a></li><li>Webmaster: Grant Seastream</li><li>Template Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
                         </ul>
                     </div>
                 </div>
@@ -399,5 +438,6 @@
             <script src="assets/js/util.js"></script>
             <script src="assets/js/keypressmain.js"></script>
             <script src="assets/js/main.js"></script>
+            <script src="assets/js/slideshow.js"></script>
     </body>
 </html>
