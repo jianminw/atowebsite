@@ -1603,12 +1603,6 @@
 		background-size: cover;
 	}
 
-	#header-wrapper-dessert {
-		background: url("../../photos/dessertBar.png") center center;
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
-
 		#header-wrapper:before {
 			pointer-events: none;
 			content: '';
