@@ -5,13 +5,13 @@ carousel();
 function plusDivs(n) {
     clearTimeout(timerid);
     showDivs(slideIndex += n);
-    timerid = setTimeout(carousel, 10000); // 10 seconds after manual
+    timerid = setTimeout(carousel, 15000); // 15 seconds after manual
 }
 
 function currentDiv(n) {
     clearTimeout(timerid);
     showDivs(slideIndex = n);
-    timerid = setTimeout(carousel, 10000);
+    timerid = setTimeout(carousel, 15000);
 }
 
 function showDivs(n) {
