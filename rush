@@ -29,7 +29,7 @@
         </script>
         <script src="scripts/keypress-2.1.4.min.js"></script> 
     </head>
-    <body class="homepage">
+    <body>
               
         <div id="page-wrapper">
             <a name="top"></a>
@@ -78,8 +78,8 @@
                 </div>
 
             <!-- Intro -->
-                <div id="intro-wrapper" class="wrapper style1 wow bounceInUp">
-                    <a name="details"><div class="title">Scroll Down For Details</div></a>
+                <div id="intro-wrapper" class="wrapper style1">
+                    <a name="details"><div class="title">Rush Calendar</div></a>
                     <section id="intro" class="container">
                         <a class="image featured wow bounceIn">
                             <img src="photos/rushcal.png" alt=""/>
@@ -98,7 +98,7 @@
                 </div>
 
             <!-- Footer -->
-                <div id="footer-wrapper" class="wrapper wow bounceInUp">
+                <div id="footer-wrapper" class="wrapper">
                     <a name="contact"><div class="title">Contact Us</div></a>
                     <div id="footer" class="container">
                         <header class="style1">
