@@ -20,6 +20,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <meta property="og:image" content="http://cmuato.org/photos/rushcal.png" />
+        <meta property="og:description" content="Are you ready to become a leader? Join the brothers of Alpha Tau Omega for this semester's rush events." />
+
         <link rel="icon" href="photos/cross.png"/>
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="stylesheets/animate.css"/>
