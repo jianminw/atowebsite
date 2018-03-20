@@ -16,15 +16,16 @@
             gtag('config', 'UA-111884318-1');
         </script>
 
-        <title>Spring Rush 2018 | ATO</title>
+        <title>Greek Sing | ATO</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- Facebook link preview properties -->
-        <meta property="og:image" content="http://cmuato.org/photos/rushcal.png" />
-        <meta property="og:description" content="Are you ready to become a leader? Join the brothers of Alpha Tau Omega for this semester's rush events." />
+        <meta property="og:image" content="http://cmuato.org/photos/gs1.png" />
+        <meta property="og:description" content="Alpha Tau Omega is a proud participant of the annual Greek Sing philanthropy event." />
 
         <link rel="icon" href="photos/cross.png"/>
+        <link rel="stylesheet" href="stylesheets/w3.css">
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="stylesheets/animate.css"/>
         <script src="scripts/wow.min.js"></script>
@@ -32,6 +33,11 @@
             window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};heap.load("3083052150");
         </script>
         <script src="scripts/keypress-2.1.4.min.js"></script>
+        <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+        </style>
     </head>
     <body>
 
@@ -44,8 +50,8 @@
 
                         <!-- Logo -->
                             <div id="logo">
-                                <h1 style="padding-top:10px" class="style2 wow bounceIn">Are you ready to become a leader?</h1>
-                                <p class="style2 wow slideInUp">Join us for Spring Rush 2018</p>
+                                <h1 style="padding-top:10px" class="style2 wow bounceIn">Greek Sing</h1>
+                                <p class="style2 wow slideInUp">Raising money for charity through song and dance</p>
                                 <br>
                                 <div class="row">
                                     <div class="10u 6u(mobile)"></div>
@@ -68,9 +74,9 @@
                                             <li><a href="index.html#contact">Contact Us</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#top">Spring Rush 2018</a></li>
+                                    <li><a href="rush">Spring Rush 2018</a></li>
                                     <li><a href="dessert">Dessert Bar 2018</a></li>
-                                    <li><a href="greeksing">Greek Sing</a></li>
+                                    <li><a href="#top">Greek Sing</a></li>
                                     <li><a href="http://bikeathon.cmuato.org" target="_blank">Bikeathon 2017</a></li>
                                 </ul>
                             </nav>
@@ -80,17 +86,41 @@
 
             <!-- Intro -->
                 <div id="intro-wrapper" class="wrapper style1">
-                    <a name="details"><div class="title">Rush Calendar</div></a>
+                    <a name="details"><div class="title">Details</div></a>
                     <section id="intro" class="container">
-                        <a class="image featured wow bounceIn">
-                            <img src="photos/rushcal.png" alt=""/>
-                        </a>
-                        <p class="style1 wow slideInUp">Become a Founding Father!</p>
+
+                        <div class="w3-content w3-display-container wow bounceIn" style="max-width:800px">
+                            <img class="mySlides" src="photos/gs1.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/gs2.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/gs3.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/gs4.jpg" style="width:100%">
+                            <img class="mySlides" src="photos/gs5.jpg" style="width:100%">
+                            <div class="w3-center w3-container w3-section w3-xxxlarge w3-text-white w3-display-bottommiddle" style="width:100%">
+                                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                                <span class="w3-badge dots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+                            </div>
+                        </div>
+
+                        <p class="wow bounceIn">AXO and ATO perform The Little Mermaid</p>
+
+                        <br />
+
+                        <p class="style1 wow slideInUp">Greek Sing!</p>
+
+                        <p class="wow slideInUp">Alpha Tau Omega is a proud participant of the annual Greek Sing philanthropy event. Every year, over 1,000 members of Carnegie Mellon's Greek Community join forces to raise money for a charitable organization by writing, producing, and performing 15 minute musicals. In 2017, the Greek Community set a goal to raise $150,000 in 2 years for Camp Kesem, a nationwide community that hosts summer camps to support children through and beyond their parent's cancer. In the first year alone, Greek Sing raised over $100,000.</p>
+
+                        <p class="wow slideInUp">For this past Greek Sing in 2017, we partnered with the sisters of Alpha Chi Omega to perform <a href="https://youtu.be/Qzft7ANGW7k" target="_blank">The Little Mermaid</a>. We're so proud of the work we did along with the rest of Greek Community in putting on amazing shows and raising an incredible amount of money. This year, we will be returning to the stage to rock the singles category with our rendition of Newsies. Click the button below to donate to Camp Kesem!</p>
+
                         <div class="row">
                             <div class="12u">
                                 <ul class="actions">
-                                    <li><a href="https://calendar.google.com/calendar/b/4?cid=YzVlZTBhNmRqdHNyMXFpcWo2bWJjMXBlZDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Subscribe to Calendar" /></a></li>
-                                    <li><a href="https://www.facebook.com/events/1745545528852961/" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Facebook Event" /></a></li>
+                                    <li><a href="https://www.crowdrise.com/o/en/campaign/greek-sing-2018/cmuato" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Donate Now" /></a></li>
+                                    <li><a href="https://www.facebook.com/pg/GreekSing/about/" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Learn More" /></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -200,5 +230,6 @@
             <script src="assets/js/util.js"></script>
             <script src="assets/js/keypressmain.js"></script>
             <script src="assets/js/main.js"></script>
+            <script src="assets/js/slideshow.js"></script>
     </body>
 </html>
