@@ -16,12 +16,12 @@
             gtag('config', 'UA-111884318-1');
         </script>
 
-        <title>Spring Rush 2018 | ATO</title>
+        <title>Fall Rush 2018 | ATO</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- Facebook link preview properties -->
-        <meta property="og:image" content="http://cmuato.org/photos/rushcal.png" />
+        <meta property="og:image" content="http://cmuato.org/photos/rushcal.jpg" />
         <meta property="og:description" content="Are you ready to become a leader? Join the brothers of Alpha Tau Omega for this semester's rush events." />
 
         <link rel="icon" href="photos/cross.png"/>
@@ -42,7 +42,7 @@
                         <!-- Logo -->
                             <div id="logo">
                                 <h1 style="padding-top:10px" class="style2 wow bounceIn">Are you ready to become a leader?</h1>
-                                <p class="style2 wow slideInUp">Join us for Spring Rush 2018</p>
+                                <p class="style2 wow slideInUp">Join us for Fall Rush 2018</p>
                                 <br>
                                 <div class="row">
                                     <div class="10u 6u(mobile)"></div>
@@ -65,7 +65,7 @@
                                             <li><a href="index.html#contact">Contact Us</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#top">Spring Rush 2018</a></li>
+                                    <li><a href="#top">Fall Rush 2018</a></li>
                                     <li><a href="dessert">Dessert Bar 2018</a></li>
                                     <li><a href="greeksing">Greek Sing</a></li>
                                     <li><a href="http://bikeathon.cmuato.org" target="_blank">Bikeathon 2017</a></li>
@@ -80,14 +80,14 @@
                     <a name="details"><div class="title">Rush Calendar</div></a>
                     <section id="intro" class="container">
                         <a class="image featured wow bounceIn">
-                            <img src="photos/rushcal.png" alt=""/>
+                            <img src="photos/rushcal.jpg" alt=""/>
                         </a>
                         <p class="style1 wow slideInUp">Become a Founding Father!</p>
                         <div class="row">
                             <div class="12u">
                                 <ul class="actions">
-                                    <li><a href="https://calendar.google.com/calendar/b/4?cid=YzVlZTBhNmRqdHNyMXFpcWo2bWJjMXBlZDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Subscribe to Calendar" /></a></li>
-                                    <li><a href="https://www.facebook.com/events/1745545528852961/" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Facebook Event" /></a></li>
+                                    <li><a href="https://calendar.google.com/calendar/b/3?cid=MmhnY2hrY3Q3azZsMmVoY2NlM2ozMzR0cWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Subscribe to Calendar" /></a></li>
+                                    <li><a href="https://www.facebook.com/events/291173021473717/" target="_blank"><input type="submit" style="background-color:#0C6596;color:white" class="styleButton" value="Facebook Event" /></a></li>
                                 </ul>
                             </div>
                         </div>
